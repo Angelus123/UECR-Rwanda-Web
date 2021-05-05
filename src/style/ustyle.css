@@ -81,13 +81,14 @@
 }
 
 .item--5 {
+
   grid-row: 4/9;
   grid-column: 2/3;
   box-shadow: 10px 20px 10px rgba(15, 2, 77, 0.377);
 }
 
 .item--6 {
-  margin-top: 50px;
+ 
   -ms-grid-row: 5;
   -ms-grid-row-span: 3;
   grid-row: 4/9;
@@ -637,5 +638,13 @@ input[type="email"] {
     width: 100%px;
     height:auto;
   }
+}
+.More{
+  font-size: x-large;
+  background-color: rgba(39, 77, 201, 0.719);
+  width: 50px;
+  float:right;
+  margin-top: 30%;
+  box-shadow: 5px 7px 5px rgba(17, 5, 80, 0.644);
 }
 /*# sourceMappingURL=ustyle.css.map */

@@ -15,8 +15,9 @@ const AboutRCC = () => {
               
                 <a href="http://">More</a>  
             </p>
+            <img src={rukara} alt="" srcSet=""className="img0" />
         </div>
-        <img src={rukara} alt="" srcSet=""className="img0" />
+        
             
     </div>
     )
