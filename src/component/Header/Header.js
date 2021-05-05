@@ -7,32 +7,32 @@ const header = () => {
         <div className="subcontainer-1">
             <div className="subitem1 subitem1--1"> 
                 <div  className='logo' >
-                    {/* <img src={logo} alt="" srcset=""/>      */}
+                 
                 </div>                     
             </div>
 
             <div className="subitem1 subitem1--2"></div>
 
             <div className="subitem1 subitem1--3">
-                <a href="/" className="nav"></a> 
+               
             </div>
 
             <div className="subitem1 subitem1--4"></div>
 
             <div className="subitem1 subitem1--5">
-                <a href="/" className="nav"></a>
+             
             </div>
 
             <div className="subitem1 subitem1--6"></div>
 
             <div className="subitem1 subitem1--7">
-                <a href="/" className="nav"></a>
+             
             </div>
             
             <div className="subitem1 subitem1--8"></div>
 
             <div className="subitem1 subitem1--9">
-                <a href="/" className="nav"></a>
+             
             </div>
 
             <div className="subitem1 subitem1--10"></div> 
