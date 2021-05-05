@@ -4,7 +4,7 @@ import '../../style/ustyle.css'
 const Slide = () => {
 
     const style = {
-        backgroundColor: '#1c012052',
+        backgroundColor: 'rgba(0, 0, 0, 0.726)',
         border: '2px solid #007',
         // padding: '10px 0 5px 0',
         // margin: '10px 0 -5px 0',
@@ -13,20 +13,21 @@ const Slide = () => {
         // cursor: 'pointer'
     }
     const box = {
-      
+        color: 'rgba(255, 1, 200, 0.781)',
     }
     const hr = {
         boxShadow: 'float: left',
     }
     return(
         <div className="item item--2">
+            <p>more>></p>
         <img className="mySlides" src={logo} alt="logo"/> 
      
 
         
         <div style={style} >
             <h1  style ={box}>Welcome to UECR</h1>
-            <hr color="red" width="25%" />
+            <hr color="red" width="40%" />
                 <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. 
                     Sapiente ex molestiae quam culpa consectetur beatae expedita,
                     Lorem ipsum dolor sit amet consectetur adipisicing elit. 
