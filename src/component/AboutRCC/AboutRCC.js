@@ -1,5 +1,4 @@
 import React from 'react'
-import bible from'../../assets/bible.jpg'
 import rukara from'../../assets/rukaraInside.jpg'
 
 import './AboutRCC.css'

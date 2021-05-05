@@ -7,8 +7,8 @@ import AboutUECR from '../component/AboutUECR/AboutUECR'
 import AboutRCCI from '../component/AboutRCCI/AboutRCCI'
 import AboutRCC from '../component/AboutRCC/AboutRCC'
 import WelcUECR from '../component/WelcUECR/WelcUECR'
-import WelcUECR_8 from '../component/WelcUECR_8/WelcUECR_8'
-import WelcUECR_9 from '../component/WelcUECR_9/WelcUECR_9'
+import WelcUECREi from '../component/WelcUECR_8/WelcUECR_8'
+import WelcUECRNi from '../component/WelcUECR_9/WelcUECR_9'
 import WeekSaint from '../component/WeekSaint/WeekSaint'
 import WeekVersel from '../component/WeekVersel/WeekVersel'
 import SevenGift from '../component/SevenGift/SevenGift'
@@ -62,8 +62,8 @@ class App extends Component{
                     <AboutRCCI />
                     <AboutRCC />                       
                     <WelcUECR />
-                    <WelcUECR_8 /> 
-                    <WelcUECR_9 />
+                    <WelcUECREi /> 
+                    <WelcUECRNi />
                     <WeekSaint />
                     <WeekVersel />
                     <SevenGift/>

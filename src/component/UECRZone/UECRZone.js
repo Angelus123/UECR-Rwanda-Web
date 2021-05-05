@@ -1,7 +1,5 @@
 import React from 'react'
 import '../../style/ustyle.css'
-import bible from'../../assets/bible.jpg'
-import saint from'../../assets/Saint.jpg'
 import snow from'../../assets/snow.jpg'
 import journey from'../../assets/journey.jpg'
 import nightSnow from'../../assets/nightSnow.jpg'

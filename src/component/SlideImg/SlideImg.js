@@ -2,20 +2,7 @@ import React from 'react'
 import logo from'../../assets/Bible1.png'
 import '../../style/ustyle.css'
 const Slide = () => {
-    let slideIndex = 0;
-    
-        
-    function carousel() {
-      let i;
-     const x = document.getElementsByclassName("mySlides");
-      for (i = 0; i < x.length; i++) {
-        x[i].style.display = "none"; 
-      }
-      slideIndex++;
-      if (slideIndex > x.length) {slideIndex = 1} 
-      x[slideIndex-1].style.display = "block"; 
-      setTimeout(carousel, 4000); 
-    }
+
     const style = {
         backgroundColor: '#1c012052',
         border: '2px solid #007',
@@ -33,7 +20,7 @@ const Slide = () => {
     }
     return(
         <div className="item item--2">
-        <img className="mySlides" src={logo}/> 
+        <img className="mySlides" src={logo} alt="logo"/> 
      
 
         

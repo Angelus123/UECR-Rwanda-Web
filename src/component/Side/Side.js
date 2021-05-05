@@ -26,7 +26,7 @@ const Side= (props) => {
                 Register</button>
                 to be a part of us, pray with us, invite us, meet friend, Update,join our
                 </p>
-                <a href=""> Events</a> we need u. 
+                <a href="/"> Events</a> we need u. 
                 <button 
                 className="LoginButton " 
                 onClick = {props.login}>
@@ -35,7 +35,7 @@ const Side= (props) => {
                 if already have account. 
                 <br/> <br/> <br/>
                 
-                <button>Pray At</button>here you can see day and time our <a href=""> community</a> pray, so you can pray with us. 
+                <button>Pray At</button>here you can see day and time our <a href="/"> community</a> pray, so you can pray with us. 
                 <button>Events</button> You can see the upcoming events, then by enroll you can join us. <button>Zone</button>|
                 <br/><button>Contact us</button>
     
