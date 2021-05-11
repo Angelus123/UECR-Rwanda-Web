@@ -3,6 +3,7 @@ import Aux from '../../hoc/Auxi/Auxilliary'
 import Toolbar from '../../component/Navigation/Toolbar/Toolbar'
 import './Layout.css'
 import SideDrawer from '../../component/Navigation/SideDrawer/SideDrawer'
+import Footer from '../../component/Footer/Footer'
 class Layout extends Component{
     state = {
         showSideDrawer:false
@@ -35,6 +36,7 @@ class Layout extends Component{
                 <main className ='content'>
                     {this.props.children}  
                 </main>
+                <Footer />
             </Aux>
    
         )

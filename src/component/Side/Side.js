@@ -14,18 +14,15 @@ import saint from'../../assets/Saint.jpg'
 const Side= (props) => {
     return(
         <div className="item item--3">
-            <div style={{borderRadius: '90', marginTop: '30'}}  className="itemb"  >
-                <img src={bible} alt="" srcSet="" width="60%"style={ { borderRadius: '20'}}  className="itemb"/> 
-                <br/>
+            <div style={{borderRadius: '5px'}}  className="item-side"  >
                 <h3>Be a part of us, bonded in Jesus love</h3>
                 <hr/>
-                
-                <p>
-                <button className="RegisterButton " 
+              
+                <button className="RegisterButton"
                 onClick = {props.register}>
                 Register</button>
                 to be a part of us, pray with us, invite us, meet friend, Update,join our
-                </p>
+               
                 <a href="/"> Events</a> we need u. 
                 <button 
                 className="LoginButton " 
