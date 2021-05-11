@@ -20,7 +20,7 @@ const Slide = () => {
     }
     return(
         <div className="item item--2">
-            <p>more>></p>
+       
         <img className="mySlides" src={logo} alt="logo"/> 
      
 

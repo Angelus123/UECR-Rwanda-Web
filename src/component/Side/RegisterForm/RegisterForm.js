@@ -1,5 +1,6 @@
 import React, {Component} from'react'
 import Button from '../../UI/Button/Button'
+
 import Aux from '../../../hoc/Auxi/Auxilliary'
 class RegisterForm extends Component{
   //This could be functional component ,it doesn't have to be class component
@@ -10,22 +11,27 @@ class RegisterForm extends Component{
    
     return (
       <Aux>
+         <Button btnType='Danger' clicked ={this.props.modalClosed }>X</Button>
       <div style ={{textAlign:'center'}}>
+     
       <h3>Register</h3>
-      <form action= "post">
-        <input type="text" placeholder="Full Name"/>
-        <input type="text" placeholder="Phone"/>
-        <input type="text" placeholder="Name of Group"/>
-        <input type="text" placeholder="Email"/>
-        <input type="text" placeholder="Password"/>
-      </form>
-
+      <div className="form-register">
+        <input type="text" placeholder="Full Name" className="register-box"/>
+        <input type="text" placeholder="Phone" className="register-box"/>
+        <input type="text" placeholder="Comunity" className="register-box"/>
+        <input type="text" placeholder="University"className="register-box"/>
+        <input type="text" placeholder="Minister" className="register-box"/>
+        <input type="email" placeholder="Email" className="register-box"/>
+        <input type="password" placeholder="Password" className="register-box"/>
+     
+      </div>
+   
+       <Button btnType='Success'>Sign Up</Button>
+      </div>
         
       <div>Already have account <button onClick={this.props.login}>
         Login</button></div>
-       <Button btnType='Danger' clicked ={this.props.modalClosed }>CANCEL</Button>
-       <Button btnType='Success'>Login</Button>
-      </div>
+    
    </Aux>)
     
   }
