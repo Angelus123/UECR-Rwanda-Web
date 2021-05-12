@@ -1,92 +1,33 @@
-import React, {Component} from 'react';
-import Todos from './components/Todos';
-import AddTodo from './components/AddTodo';
-import Header from './components/layout/Header';
-import About from './components/pages/About';
-import app from "./Authentication/base";
-// import app from "./components/Authentication/base";
-import uuid from 'react-uuid';
-import UserAuth from './Authentication/UserAuth';
-import { BrowserRouter as Router,Route} from 'react-router-dom'
+import React, {Component} from 'react'
+import { BrowserRouter, Route} from 'react-router-dom'
+import Layout from './hoc/Layout/Layout'
+import Home from './containers/Home/Home'
 
-class App extends Component{
+import Register from './component/Page/Register/Register'
+import Login from './component/Page/Login/Login'
+import About from './component/Page/About/About'
+import Community from './component/Page/Community/Community'
+import History from './component/Page/History/History'
+import Staff from './component/Page/Staff/Staff'
 
- 
-    state = {
-        todos:[ {
-        id: uuid(),
-        title:'Take out the trash',
-        completed:false
-    },
-
-    {
-        id: uuid(),
-        title:'Dinner with wife',
-        completed:false
-    },
-    
-    {
-        id: uuid(),
-        title:'Meeting with boss',
-        completed:false
-    }
-    ]
-}
-
-//Toggle Complete=====================================
-markComplete = (id) => {
-    console.log(id)
-    this.setState({todos: this.state.todos.map(todo => {
-        if(todo.id === id){
-            todo.completed=!todo.completed
-            // todo.title="felix"
-        }
-        return todo;
-    }) })
-}
-    
-//Delete========================================
-delTodo = (id) => {
-    // console.log(id)
-this.setState({todos: [...this.state.todos.filter(todo => todo.id
-    !==id)]});
-}
-addTodo = (title) => {
-    console.log(title)
- const newTodo = {
-    id: uuid(),
-    title,
-     completed: false 
- }
-
-  this.setState({todos: [...this.state.todos,newTodo]})
- }
+class App extends Component {
     render(){
-        return(
-       <Router>
-      <div className="App">
-    
-     <div className="container">
-     <Header />
-         <Route exact path="/" render={props => (
-          <React.Fragment>
-           
-            <AddTodo addTodo={this.addTodo} />
-           <Todos todos={this.state.todos} markComplete = 
-           {this.markComplete} delTodo={this.delTodo}/>
-             <button onClick= {() => app.auth().signOut()} >Sign out</button>
-          </React.Fragment>
-      )} />
+        return (
      
-      <Route path="/About" component={About} />
-      <Route path="/UserAuth" component={UserAuth}/>
-    
-      </div>
-    
-      </div>
-      </Router>
-
-        ); 
-    } 
+            <BrowserRouter>
+                  <Layout>
+                    <Route path= "/"  exact component ={Home }/>
+                    <Route path= "/login" component ={Login}/>
+                    <Route path= "/register" component ={Register}/>
+                    <Route path= "/aboutuecr" component ={About}/>
+                    <Route path= "/community" component ={Community}/>
+                    <Route path= "/history" component ={History}/>
+                    <Route path= "/staff" component ={Staff}/>
+                  </Layout>
+            
+            </BrowserRouter>
+           
+        )
+    }
 }
-export default App;
+export default App

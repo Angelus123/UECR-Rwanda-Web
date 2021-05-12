@@ -11,31 +11,21 @@ const header = () => {
                 </div>                     
             </div>
 
-            <div className="subitem1 subitem1--2"></div>
+             {/* <div className="subitem1 subitem1--2">Library</div>
 
-            <div className="subitem1 subitem1--3">
-               
+            <div className="subitem1 subitem1--3">Pray with Us</div>
+
+            <div className="subitem1 subitem1--4">News</div> */}
+
+            {/* <div className="subitem1 subitem1--5">
+             Versel Today
             </div>
 
-            <div className="subitem1 subitem1--4"></div>
+            <div className="subitem1 subitem1--6">Saint Today</div>
 
-            <div className="subitem1 subitem1--5">
-             
-            </div>
+            <div className="subitem1 subitem1--7">Our Comunity</div> */}
 
-            <div className="subitem1 subitem1--6"></div>
-
-            <div className="subitem1 subitem1--7">
-             
-            </div>
-            
-            <div className="subitem1 subitem1--8"></div>
-
-            <div className="subitem1 subitem1--9">
-             
-            </div>
-
-            <div className="subitem1 subitem1--10"></div> 
+          
 
             <div className="subitem1 subitem1--11" >
                 <form action="#">
