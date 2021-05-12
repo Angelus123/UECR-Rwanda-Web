@@ -23,12 +23,11 @@ const History = (props) => {
                 <img src={berger} alt="Berger" className="img"/>
                    <h4>Berger IZERE Ange Felix</h4>
                    <hr width= '20%'/>2021, 2020 <hr width= '20%'/>
-                   <hr width= '20%'/> <hr width= '20%'/>
+ <hr width= '20%'/> <hr width= '20%'/>
 
                 <div  className="text-history-berger ">
                 <img src={berger} alt="Berger" className="img"/>
                     Lorem ipsum dolor sit amet consectetur adipisicing elit.
-
                     <a href="http://">More</a>
                 </div>
                 <div  className="text-history-berger">
