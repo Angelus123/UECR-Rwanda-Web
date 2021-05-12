@@ -1,12 +1,18 @@
-import React from 'react'
+import React, {Component} from 'react'
 import './NavigationItem.css'
-const navigationItem =(props) =>(
+import {NavLink} from 'react-router-dom'
+import Aux from '../../../../hoc/Auxi/Auxilliary'
+class NavigationItem extends Component{
+    render()
+    {
+        return (
+        <Aux>
+            <div className="NavigationItem" >
+                <NavLink to ={this.props.link} exact >{this.props.children}</NavLink>
+            </div>
+        </Aux>     
+          )
+    }
+}
 
-        <li className='NavigationItem'>
-            <a 
-            href={props.link}
-            className={props.active ?'active':null}>{props.children}</a>
-        </li>
-    
-)
-export default navigationItem
+export default NavigationItem

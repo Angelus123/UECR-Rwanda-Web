@@ -1,7 +1,8 @@
 .Button {
-    background-color: rgba(168, 157, 5, 0.233);
+  
     border: none;
     color: white;
+
     outline: none;
     cursor: pointer;
     font: inherit;
@@ -12,13 +13,17 @@
 
 .Button:first-of-type {
     margin-left: 0;
-    padding-left: 0;
+   
 }
 
 .Success {
-    color: #5C9210;
+    background-color: rgba(12, 11, 1, 0.986);
+    color: #569004;
 }
 
 .Danger {
+    background-color: rgba(168, 157, 5, 0);
+   
+    float:right;
     color: #944317;
 }
