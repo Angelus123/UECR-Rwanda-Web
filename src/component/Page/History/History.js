@@ -17,13 +17,41 @@ const History = (props) => {
         <hr color="#053d039b"/>
         <div className="history-berger ">
                 <h3>UECR Berger from 2000 to 2021</h3> 
+
+              
+                <div  className="text-history-berger ">
+                <img src={berger} alt="Berger" className="img"/>
+                   <h4>Berger IZERE Ange Felix</h4>
+                   <hr width= '20%'/>2021, 2020 <hr width= '20%'/>
+                   <hr width= '20%'/> <hr width= '20%'/>
+
                 <div  className="text-history-berger ">
                 <img src={berger} alt="Berger" className="img"/>
                     Lorem ipsum dolor sit amet consectetur adipisicing elit.
+
                     <a href="http://">More</a>
                 </div>
                 <div  className="text-history-berger">
                 <img src={berger} alt="Berger" className="img"/>
+
+                <h4>Berger Protogene</h4>
+                <hr width= '20%'/> 2019<hr width= '20%'/>
+                   <hr width= '20%'/> <hr width= '20%'/>
+                    <a href="http://">More</a>
+                </div>   
+
+                 <div  className="text-history-berger">
+                <img src={berger} alt="Berger" className="img"/>
+                <h4>Berger </h4>
+                <hr width= '20%'/>2017 <hr width= '20%'/>
+                   <hr width= '20%'/> <hr width= '20%'/>
+                   <hr width= '20%'/> <hr width= '20%'/>
+                
+                    <a href="http://">More</a>
+                </div>    
+                  
+                <div  className="text-history-berger">
+
                     Lorem ipsum dolor sit amet consectetur adipisicing elit.
                 
                     <a href="http://">More</a>
@@ -60,6 +88,7 @@ const History = (props) => {
                 </div>
                 <div  className="text-history-berger">
                
+
                     View all Berger 
                     <img src={next} alt="Berger" className="img"/>
                 </div>
